@@ -228,28 +228,27 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
+
 FOR PULSE AT 500
 
-TON = 500
-TOFF=500
-TOTAL TIME =1000 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 2.5ms
+TOFF=2.5mus
+TOTAL TIME = 5ms
+FREQUENCY = 1/(5*10^-3)= 200Hz
+
+FOR PULSE AT 600
+
+TON = 3ms
+TOFF= 2mus
+TOTAL TIME = 5ms
+FREQUENCY = 1/(TOTAL TIME)=200Hz
 
 FOR PULSE AT 700
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
-
-
-FOR PULSE AT 900
-
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
-
+TON = 3.5ms
+TOFF=1.5mus
+TOTAL TIME = 5ms
+FREQUENCY = 1/(TOTAL TIME)=200Hz
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
