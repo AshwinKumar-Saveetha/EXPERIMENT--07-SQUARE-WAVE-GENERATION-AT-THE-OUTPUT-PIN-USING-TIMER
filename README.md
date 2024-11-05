@@ -41,8 +41,10 @@ STM32 PWM Duty Cycle
 
 In normal settings, assuming you’re using the timer module in PWM mode and generating PWM signal in edge-aligned mode up-counting configuration. The duty cycle percentage is controlled by changing the value of the CCRx register. And the duty cycle equals (CCRx/ARR) [%].
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/58ce0807-331e-49f7-bc8d-373f82592a92)
-
-
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
 
 ## Procedure:
 Step1: Open CubeMX & Create New Project
@@ -210,7 +212,10 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ```
-
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
 ## Output screen shots of proteus  :
 
  ![Screenshot 2024-10-09 105149](https://github.com/user-attachments/assets/118a985d-6007-482f-985c-3fc0c2e34252)
@@ -221,7 +226,12 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ![Screenshot 2024-10-09 105456](https://github.com/user-attachments/assets/6a06d058-2cd9-46df-839a-46ee6f83c07e)
 
- 
+ <br><br><br><br>
+<br><br><br><br>
+<br><br><br><br> <br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
 
  ![image](https://github.com/user-attachments/assets/d0d5d005-4949-44d7-ad0b-2901145cfbcd)
